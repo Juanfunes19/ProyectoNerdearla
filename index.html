@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerdear.La</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="nerdearla.png" alt="Logo Nerdear.La" class="logo">
+            <ul>
+                <li><a href="#">INICIO</a> </li>
+                <li><a href="#">AGENDA</a> </li>
+                <li><a href="#">CONTACTO</a> </li>
+            </ul>
+            <span class="charlas">
+                <a href="https://www.youtube.com/c/nerdearla/videos">MIRA LAS CHARLAS</a>
+            </span>
+            <img src="menu.png" alt="" class="menu">
+        </nav>
+    </header>
+    
+    <section>
+        <div class="container">
+            <form action="https://submit-form.com/LbTcqIgM" method="POST">
+                <h2 class="titulo">Inscripción al primer congreso nerd de programadores</h2> <br>
+
+                <label for="nombre" class="textos">Nombre</label>
+                <input type="text" name="nombre" maxlength="50" required class="inputs" placeholder="escriba su nombre"> <br>
+
+                <label for="email" class="textos">Email</label>
+                <input type="email" name="email" required placeholder="email@correo.com" class="inputs"> <br>
+
+                <label for="pais" class="textos">Pais</label>
+                <select name="pais" class="campos">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Otro">Otro</option>
+                </select> <br>
+
+                <label for="lenguajes" class="textos">¿Que lenguajes conoces?</label>
+                <div class="lenguajes">
+                    <input type="checkbox" value="Java" name="lenguajes" >
+                    <label for="" class="tipos-lenguajes">Java</label>
+
+                    <input type="checkbox" value="Java Script" name="lenguajes" >
+                    <label for="" class="tipos-lenguajes">Java Script</label>
+
+                    <input type="checkbox" value="PHP" name="lenguajes" >
+                    <label for="" class="tipos-lenguajes">PHP</label>
+
+                    <input type="checkbox" value="C#" name=lenguajes" >
+                    <label for="" class="tipos-lenguajes">C#</label>
+
+                    <input type="checkbox" value="Python" name="lenguajes" >
+                    <label for="" class="tipos-lenguajes">Python</label>
+
+                    <input type="checkbox" value="Otro" name="lenguajes" >
+                    <label for="" class="tipos-lenguajes">Otro</label>
+                </div> <br>
+
+                <label for="numero binarios" class="textos">Indique el numero binario favorito</label>
+                <div class="numerosbinarios">
+                    <input type="radio" name="numero binarios" value="0">
+                    <label for="">0</label>
+                    <input type="radio" name="numero binarios" value="1">
+                    <label for="">1</label>
+                </div> <br>
+
+                <label for="experiencia laboral" class="textos">¿Cuantos años de expericia laboral tenes?</label>
+                <div class="experiencia">
+                    <div>
+                        <input type="radio" name="experiencia laboral" value="Menos de 2 años">
+                        <label for="">Menos de 2 años</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="experiencia laboral" value="Entre 2 a 4 años">
+                        <label for="">Entre 2 a 4 años</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="experiencia laboral" value="Mas de 4 años">
+                        <label for="">Mas de 4 años</label>
+                    </div>
+                </div> <br>
+                <button class="enviar">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
